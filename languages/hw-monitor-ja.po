@@ -1,0 +1,200 @@
+# Copyright (C) 2018 HW Monitor
+# This file is distributed under the same license as the HW Monitor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: HW Monitor 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hw-monitor\n"
+"POT-Creation-Date: 2018-11-15 02:18:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-11-15 11:20+0900\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
+
+#: addon/cpu.php:22
+msgid "CPU"
+msgstr "CPU"
+
+#: addon/cpu.php:31 addon/cpu.php:85
+msgid "Utilization"
+msgstr "使用率"
+
+#: addon/cpu.php:32 addon/cpu.php:118
+msgid "Maximum speed"
+msgstr "最大速度"
+
+#: addon/cpu.php:33 addon/cpu.php:119
+msgid "Sockets"
+msgstr "ソケット"
+
+#: addon/cpu.php:34 addon/cpu.php:130
+msgid "Cores"
+msgstr "コア"
+
+#: addon/cpu.php:35 addon/cpu.php:120
+msgid "Logical processors"
+msgstr "論理プロセッサ数"
+
+#: addon/cpu.php:36 addon/cpu.php:121
+msgid "Visualization"
+msgstr "仮想化"
+
+#: addon/cpu.php:37 addon/cpu.php:166
+msgid "Processes"
+msgstr "プロセス数"
+
+#: addon/cpu.php:38 addon/cpu.php:155
+msgid "Up time"
+msgstr "稼働時間"
+
+#: addon/cpu.php:43
+msgid "Can't access to '/proc/stat' ."
+msgstr "/proc/statにアクセスできません。"
+
+#: addon/cpu.php:92
+msgid "Failed to acquire CPU usage rate."
+msgstr "CPU使用率の取得に失敗しました。"
+
+#: addon/cpu.php:100
+msgid "Can't access to '/proc/cpuinfo' ."
+msgstr "/proc/cpuinfoにアクセスできません。"
+
+#: addon/cpu.php:122
+msgid "Enabled"
+msgstr "有効"
+
+#: addon/cpu.php:122
+msgid "Disabled"
+msgstr "無効"
+
+#: addon/cpu.php:135
+msgid "Can't access to '/proc/uptime' ."
+msgstr "/proc/uptimeにアクセスできません。"
+
+#: addon/cpu.php:143
+msgid "'/proc/uptime' file is an expected format."
+msgstr "/proc/uptimeが想定外のフォーマットです。"
+
+#: addon/cpu.php:162
+msgid "Failed to execute the 'ps' command."
+msgstr "psコマンドの実行に失敗しました。"
+
+#: addon/filesystem.php:16
+msgid "FileSystem"
+msgstr "ファイルシステム"
+
+#: addon/filesystem.php:25 addon/filesystem.php:63
+msgid "Mounted on"
+msgstr "マウント位置"
+
+#: addon/filesystem.php:26 addon/filesystem.php:64 addon/memory.php:25
+#: addon/memory.php:46
+msgid "In use"
+msgstr "使用中"
+
+#: addon/filesystem.php:27 addon/filesystem.php:65 addon/memory.php:26
+#: addon/memory.php:47
+msgid "Available"
+msgstr "利用可能"
+
+#: addon/filesystem.php:34
+msgid "Failed to execute the 'df' command."
+msgstr "dfコマンドの実行に失敗しました。"
+
+#: addon/filesystem.php:54
+msgid "The output of the 'df' command is an unexpected format."
+msgstr "dfコマンドの出力が想定外のフォーマットです。"
+
+#: addon/filesystem.php:61
+msgid ""
+"* Information on the file system where WordPress of the following path is "
+"installed."
+msgstr "※下記のパスのWordPressがインストールされているファイルシステムの情報です。"
+
+#: addon/memory.php:16
+msgid "Memory"
+msgstr "メモリ"
+
+#: addon/memory.php:27 addon/memory.php:48
+msgid "Cached"
+msgstr "キャッシュ済み"
+
+#: addon/memory.php:34
+msgid "Failed to execute the 'free' command."
+msgstr "freeコマンドの実行に失敗しました。"
+
+#: addon/memory.php:55
+msgid "Failed to acquire Memory usage rate"
+msgstr "メモリ使用率の取得に失敗しました。"
+
+#: admin/page-addons.php:1
+msgid "Installed Add-ons"
+msgstr "インストール済みのアドオン"
+
+#: admin/page-addons.php:13
+msgid "Detail"
+msgstr "詳細"
+
+#: admin/page-base.php:10
+msgid "Monitor"
+msgstr "モニター"
+
+#: admin/page-base.php:14
+msgid "Setting"
+msgstr "設定"
+
+#: admin/page-base.php:18
+msgid "Add-ons"
+msgstr "アドオン"
+
+#: admin/page-monitor.php:4
+msgid "%% Utilization, %s seconds"
+msgstr "%s 秒間の使用率 (%%)"
+
+#: admin/page-setting.php:5
+msgid "Data collection interval:"
+msgstr "データ取得間隔："
+
+#: admin/page-setting.php:8
+msgid "sec."
+msgstr "秒"
+
+#: admin/page-setting.php:13
+msgid "Update"
+msgstr "更新"
+
+#: hw-monitor.php:81
+msgid "Display"
+msgstr "表示"
+
+
+#: hw-monitor.php:132
+msgid "Please enter an integer of 1 or more in the data collection interval."
+msgstr "データ取得間隔には1以上の整数を入力してください。"
+
+#: hw-monitor.php:142
+msgid "Has been updated."
+msgstr "更新しました。"
+
+#. Plugin Name of the plugin/theme
+msgid "HW Monitor"
+msgstr "HW Monitor"
+
+#. Description of the plugin/theme
+msgid ""
+"Displays performance monitor, such as the Microsoft Windows Task Manager on "
+"WordPress."
+msgstr "WordPress上にMicrosoft Windowsのタスクマネージャーのようなパフォーマンスモニタを表示します。"
+
+#. Author of the plugin/theme
+msgid "PRESSMAN"
+msgstr "PRESSMAN"
+
+#. Author URI of the plugin/theme
+msgid "https://www.pressman.ne.jp/"
+msgstr "https://www.pressman.ne.jp/"
+
